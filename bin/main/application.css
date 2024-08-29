@@ -1,0 +1,35 @@
+.button {
+    -fx-background-color: #04a5a8;
+    -fx-background-radius: 15px;
+    -fx-label-padding: 2px;
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+}
+.button:hover {
+    -fx-background-color: #004e50;
+}
+#header {
+    -fx-font-size: 30px;
+}
+#listView {
+    -fx-orientation: horizontal;
+    -fx-pref-width: 228;
+    -fx-pref-height: 60;
+    -fx-background-radius: 10;
+    -fx-border-color: #ececec;
+
+}
+#textArea {
+    -fx-max-height: 50;
+    -fx-max-width: 150;
+    -fx-control-inner-background: #ececec;
+    -fx-border-color: #ececec;
+}
+#menu {
+    -fx-alignment: center;
+    -fx-background-color: #ececec;
+    -fx-spacing: 20;
+}
+#id {
+    -fx-font-size: 40;
+}
